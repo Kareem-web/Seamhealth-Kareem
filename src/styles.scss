@@ -1,0 +1,35 @@
+/* You can add global styles to this file, and also import other style files */
+@import url('https://fonts.googleapis.com/css2?family=Akaya+Telivigala&family=Fredoka:wght@300;400;500;600;700&family=Oswald:wght@200;300;400&family=Roboto+Flex:opsz,wght@8..144,300;8..144,400;8..144,500;8..144,600&family=Satisfy&family=Tapestry&family=Work+Sans:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Akaya+Telivigala&family=Fredoka:wght@300;400;500;600;700&family=Satisfy&display=swap');
+
+.container{
+    width: 70%;
+    margin-top: 25px;
+    margin: auto;
+}
+
+.content{
+  // /* max-width: 500px; 
+  margin: auto;
+  background-color: #fff;
+  margin-top: 25px;
+  padding: 2%;
+  border-radius: 5px;
+  font-family: 'Akaya Telivigala', cursive;
+}
+
+html, body {
+  height: 100%;
+  font-family: 'Akaya Telivigala', cursive;
+}
+
+
+body {
+  color: rgb(82, 81, 81);
+  font-family: 'Akaya Telivigala', cursive;
+  background: rgb(81, 93, 206);
+}
+
+.mat-dark-grey {
+  background: darkgrey;
+}

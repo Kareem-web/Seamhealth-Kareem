@@ -1,0 +1,12 @@
+<div class="container">
+  <div class="content">
+  <app-add-doctor (newDoctor)="appState.addDoctor($event); notifyAdd()"></app-add-doctor>
+  <mat-spinner *ngIf="appState.doctorDetails$.isLoading | async; else doctors;" color="accent"
+               strokeWidth="5"></mat-spinner>
+  <ng-template #doctors>
+    <app-list-doctors (doctorSearch)="appState.searchDoctor($event)"
+                      [doctors]="(appState.doctorDetails$.data | async) || []"
+                      [paginateInfo]="paginateInfo"></app-list-doctors>
+  </ng-template>
+</div>
+</div>
